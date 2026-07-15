@@ -1,0 +1,118 @@
+body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #08fdb31e;
+            color: #222;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        
+        .menu{
+            text-align: center;
+            background-color: aqua;
+            margin: 2px;
+            padding: 10px;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            width: 100%;
+
+        }
+        .container {
+            max-width: 98%;
+            margin: 10px auto;
+            padding: 0 10px;
+            text-align: center;
+            justify-content: center;
+        }
+        .container p{
+            text-align: left;
+        }
+        .container h1{
+            text-align: left;
+            text-transform:uppercase;
+        }
+        .anuncio{
+            background-color: red;
+            width: 200px;
+            font-size: medium;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+    
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .producto {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 24px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .producto:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+        }
+        .producto img {
+            width: 220px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        }
+        .producto img:hover {
+            transform: scale(1.08) rotate(-2deg);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+        }
+        .producto h3 {
+            margin: 18px 0 10px 0;
+            font-size: 1.2em;
+        }
+        .producto p {
+            color: #555;
+            font-size: 1em;
+            margin-bottom: 18px;
+        }
+        .botones {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+        .boton {
+            padding: 10px 22px;
+            border: none;
+            border-radius: 6px;
+            background: #ff5a36;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+            font-size: 1em;
+        }
+        .boton:hover {
+            background: #222;
+            transform: scale(1.07);
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+        }
